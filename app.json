@@ -1,11 +1,30 @@
 {
   "expo": {
+    "name": "my-react-app",
+    "slug": "my-react-app",
     "scheme": "acme",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "androidStatusBar": {
+      "hidden": true
+    },
     "web": {
       "bundler": "metro"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bace4b36-9d20-4701-9250-ad311ab5aabf"
+      }
+    },
+    "android": {
+      "package": "com.maham_dawood.myreactapp"
+    }
   }
 }
