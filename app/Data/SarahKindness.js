@@ -18,6 +18,12 @@ export const storySlidesArrayData2 = [
         color: 'white'
     },
     {
+        id: '4',
+        imageSource: require('../../assets/sarahKindness/slide4.png'),
+        description: 'Alex wondered: keep the wallet or give it to the teacher to return to its owner?',
+        color: 'white'
+    },
+    {
         id: 'question',
         imageSource: require('../../assets/theWalletAdventure/childWondering.webp'),
         description: 'Can you imagine what the right choice for Alex might be at this moment?',
